@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="chainbreak"
+version="1.0.0"
+displayName="Chain Break (Epic Fight Passive)"
+logoFile="logo.png"
+authors="you"
+description='''
+Passive skill for Epic Fight. Land enough hits to fill the gauge, then press the keybind
+(default: Caps Lock) to instantly cancel your combo and perform an invulnerable roll.
+'''
+
+[[dependencies.chainbreak]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.chainbreak]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.chainbreak]]
+modId="epicfight"
+mandatory=true
+versionRange="[20.14,)"
+ordering="AFTER"
+side="BOTH"
